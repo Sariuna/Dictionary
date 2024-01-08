@@ -12,7 +12,7 @@ export const TermCard = ({ title, description, onDelete, id }) => {
       {description && (
         <p className="term-card__description">{description}</p>
       )}
-      <button type="button" className="term-card__delete" onClick={handleDeleteClick}>Удалить</button>
+      <button type="button" className="term-card__delete" onClick={handleDeleteClick}> Удалить термин </button>
     </div>
   );
 }
